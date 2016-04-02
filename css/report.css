@@ -1,0 +1,101 @@
+html, body {
+	margin: 5px;
+	padding: 0px;
+}
+body {
+	font: 10px Tahoma, verdana, sans-serif;
+}
+
+h1 {
+	color: #000000;
+	font: 12px Tahoma, verdana, sans-serif; font-weight: bold;
+}
+#main{	
+	margin:auto;	
+}
+#tomato{	
+	margin: auto;
+	visibility: visible
+}
+
+table.mainreport{
+	width: 600px; border-width: 1px; border-spacing: 0px; border-style: solid; 
+	border-color: #000000; border-collapse: collapse;	
+}
+table.mainreport td{
+	padding: 10px 25px 10px 25px;
+}
+
+table.report{
+	width: 100%; border-width: 0px; border-spacing: 0px; border-style: solid; 
+	border-color: #000000; border-collapse: collapse;
+}
+table.report th {
+	border-width: 0px; padding: 3px; border-style: solid; border-color: #9DA18A;
+	background-color: #FFFFFF; text-align: left; color: #000000;
+	font: 20px Tahoma, verdana, sans-serif;
+}
+table.report td {
+	border-width: 0px; padding: 5px; border-style: solid; border-color:#999999;
+	background-color: #FFFFFF; text-align: left; color: #000000;
+	font: 14px Tahoma, verdana, sans-serif;
+}
+
+table.stdreport{
+	width: 800px; border-width: 1px; border-spacing: 0px; border-style: solid; 
+	border-color: #000000; border-collapse: collapse;	
+}
+table.stdreport td{
+	padding: 10px 25px 10px 25px;
+}
+
+table.substdreport{
+	width: 100%; border-width: 1px; border-spacing: 0px; border-style: solid; 
+	border-color: #000000; border-collapse: collapse;
+}
+table.substdreport th {
+	border-width: 0px 1px 1px 0px; padding: 3px; border-style: solid; border-color: #000000;
+	background-color: #CCCCCC; text-align: center; color: #000000;
+	font: 12px Tahoma, verdana, sans-serif; font-weight: bold;
+}
+table.substdreport td {
+	border-width:0px 1px 1px 0px;border-style:solid; padding: 5px;  border-color: #000000;
+	background-color: #FFFFFF; text-align: left; color: #000000;
+	font: 12px Tahoma, verdana, sans-serif;
+}
+
+.btndisabled,span.btndisabled{
+	display:inline;margin:0px 3px 0px 0px; padding: 4px 8px 4px 8px;
+	border:1px solid #828770;-moz-border-radius:4px;-webkit-border-radius:4px;
+	background:#dcdcdc url(../images/bg_action_secondary.png) repeat-x 0 0;	
+	text-decoration:none!important;color:#000!important;cursor:pointer;text-align:center;
+}
+.btndisabled span,span.btndisabled span{
+	display:inline;min-height:16px;padding:3px 20px!important;white-space:normal!important;
+}
+.btndisabled:hover{
+	background:#fc0 url(../images/bg_action_hover.png) repeat-x 0 0;
+	border:1px solid #f6be68;
+}
+.btndisabled:visited{color:#000;}
+
+.numberplus { width: 50px; text-align: right; color: #000000}
+.numberminus { width: 50px; text-align: right; color: #FF0000}
+
+
+
+
+table.tabelfont{
+	width: 405px; border-width: 1px; border-spacing: 0px; border-style: solid; 
+	border-color: #000000; border-collapse: collapse;
+}
+table.tabelfont th {
+	border-width: 0px 1px 1px 0px; padding: 3px; border-style: solid; border-color: #000000;
+	background-color: #CCCCCC; text-align: center; color: #000000;
+	font: 12px Tahoma, verdana, sans-serif; font-weight: bold;
+}
+table.tabelfont td {
+	border-width:0px 1px 1px 0px;border-style:solid; padding: 5px;  border-color: #000000;
+	background-color: #FFFFFF; text-align: left; color: #000000;
+	font: 12px Tahoma, verdana, sans-serif;
+}
